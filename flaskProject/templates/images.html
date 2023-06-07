@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GUSHGIEJGIEJR</title>
+  </head>
+  <body>
+    <img src="/plot.png" alt="your plot" height="460" width="740">
+    <div>
+        <br>{{ string_variable[0] }}% - Результат первого повтора.
+        <br>{{ string_variable[1] }}% - Результат второго повтора.
+        <br>{{ string_variable[2] }}% - Результат третьего повтора.
+        <br>{{ string_variable[3] }}% - Результат всего упражнения.
+    </div>
+	<div>
+        <a href="{{ url_for('display_video', filename=string_video) }}">Download video</a>
+	</div>
+  </body>
+</html>
